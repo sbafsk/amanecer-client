@@ -3,7 +3,7 @@ import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import QueueAnim from 'rc-queue-anim';
 import { Row, Col } from 'antd';
 
-import { getChildrenToRender } from './utils';
+import { getChildrenToRender } from '../utils';
 
 function Feature7(props) {
   const { dataSource, isMobile, ...tagProps } = props;

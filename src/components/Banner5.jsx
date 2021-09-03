@@ -1,7 +1,7 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
-import { getChildrenToRender } from './utils';
+import { getChildrenToRender } from '../utils';
 
 class Banner5 extends React.PureComponent {
   render() {
