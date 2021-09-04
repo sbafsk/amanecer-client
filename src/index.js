@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './less/antMotionStyle.less';
+import './less/index.less';
 import App from './App';
 
 ReactDOM.render(

@@ -55,12 +55,10 @@ function Content1(props) {
             xs: dataSource.textWrapper.xs,
           }}
         >
-          <h2 key="h1" {...dataSource.title}>
+          {/* <h2 key="h1" {...dataSource.title}>
             {dataSource.title.children}
-          </h2>
-          <div key="p" {...dataSource.content}>
-            {dataSource.content.children}
-          </div>
+          </h2> */}
+          <div {...dataSource.content}>{dataSource.content.children}</div>
         </QueueAnim>
       </OverPack>
     </div>

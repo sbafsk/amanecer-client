@@ -1,111 +1,144 @@
 import React from 'react';
+import logo from './logo.png';
+
 export const Nav30DataSource = {
-  wrapper: { className: 'home-page-wrapper header3 jzih1dpqqrg-editor_css' },
-  page: { className: 'home-page' },
-  logo: {
-    className: 'header3-logo jzjgnya1gmn-editor_css',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ',
-  },
+  logo: logo,
   Menu: {
-    className: 'header3-menu',
     children: [
       {
         name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: <p>订订群</p>, name: 'text' }],
-        },
-        subItem: [
-          {
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item jzj8295azrs-editor_css',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image jzj81c9wabh-editor_css',
-                  children:
-                    'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*4_S6ToPfj-QAAAAAAAAAAABkARQnAQ',
-                },
-              ],
-            },
-            name: 'sub~jzj8hceysgj',
-          },
-        ],
+        href: 'objetivos',
+        text: 'Objetivos',
       },
       {
         name: 'item2',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: <p>帮助中心</p>, name: 'text' }],
-        },
+        href: 'valores',
+        text: 'Valores',
       },
+
       {
-        name: 'item~kt3wimrzvib',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: <p>帮助中心</p>, name: 'text' }],
-        },
+        name: 'item3',
+        href: 'alianzas',
+        text: 'Alianzas',
       },
+
       {
-        name: 'item~kt3wip3rj4t',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: <p>帮助中心</p>, name: 'text' }],
-        },
+        name: 'item4',
+        href: 'equipo',
+        text: 'Equipo',
       },
+
       {
-        name: 'item~kt3wiqhs5qb',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: <p>帮助中心</p>, name: 'text' }],
-        },
+        name: 'item5',
+        href: 'contacto',
+        text: 'Contacto',
       },
     ],
   },
-  mobileMenu: { className: 'header3-mobile-menu' },
 };
-export const Banner51DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
-  childWrapper: {
-    className: 'banner5-title-wrapper',
-    children: [
-      { name: 'title', children: '产品名', className: 'banner5-title' },
-      {
-        name: 'explain',
-        className: 'banner5-explain',
-        children: '产品标语介绍',
-      },
-      {
-        name: 'content',
-        className: 'banner5-content',
-        children: '产品的详细说明，如是什么东西之类的文字',
-      },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: '开始使用',
-        },
-      },
-    ],
-  },
-  image: {
-    className: 'banner5-image',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+export const heroDataSource = {
+  title: 'Amanecer en el campo',
+
+  explain: 'Plataforma digital de Inversiones Sustentables',
+
+  content:
+    'Apricot cayenne spicy black bean chili dip ginger lemongrass agave green tea oranges alfalfa sprouts green tea lime lychee asian pear peanut butter blueberry pops summertime falafel bites Italian linguine puttanesca quinoa flatbread mushroom risotto lime mango crisp a delicious meal crispy banh mi salad rolls sandwiches.',
+
+  button: {
+    href: '#',
+    type: '',
+    text: 'Conocer mas ...',
   },
 };
+
+export const Feature20DataSource = {
+  wrapper: { className: 'home-page-wrapper content2-wrapper' },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
+  },
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: { className: 'content2-title', children: '分布式中间件' },
+  content: {
+    className: 'content2-content',
+    children: (
+      <>
+        <p>
+          El MUNDO enfrenta grandes desafíos, si logramos avanzar desde Uruguay
+          apoyándonos en las agencias que promueven el derecho aeronáutico y del
+          espacio, para escalar en la región{' '}
+          <b>
+            acciones trasversales y simultaneas en áreas sensibles del
+            desarrollo sostenible
+          </b>
+          , podremos despejar el camino del crecimiento económico sin apartarnos
+          de los ODS 2030.-
+        </p>
+        <p>
+          Desde la visión de una Nueva Economía para una Nueva Normalidad
+          debemos{' '}
+          <b>innovar en gestión para crear un camino propio de Uruguay</b>, para
+          el crecimiento económico aprovechando nuestras fortalezas y las
+          posibilidades de la región. Contamos con la transparencia y calidad
+          institucional que nos respalda a todos en la{' '}
+          <a href="https://quinto-plan.gobiernoabierto.gub.uy/proposals/11-cluster-de-sostenibilidad-ambiental-de-la-cuenca-del-rio-santa-lucia">
+            “Plataforma de Gobierno Abierto”{' '}
+          </a>
+          y la dedicación de miles de personas “invisibles desconocidos” que
+          diariamente realizan el “Trabajo hormiga” fortaleciendo la perspectiva
+          del “Futuro” (que es Hoy) Para los{' '}
+          <b>
+            estudios de pre-factibilidad serán becados estudiantes, que estarán
+            a cargo de profesionales e idóneos*
+          </b>
+          que tendrán acceso remoto a la plataforma en 4 areas independientes
+          pero estrechamente vinculadas a cada proyecto que se incluya en la
+          plataforma de las Inversiones sustentables.
+        </p>
+      </>
+    ),
+  },
+};
+export const Feature10DataSource = {
+  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+  },
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  title: { className: 'content1-title', children: '企业资源管理' },
+  content: {
+    className: 'content1-content',
+    children: (
+      <>
+        <p>
+          La participación de cada país, puede iniciarse aportando 1 dólar por
+          barril de petroleo que consume , incluyendo criptomonedas siendo
+          Uruguay el segundo país después de El Salvador, en darle curso legal
+          para inversiones concretas sustentables además de particulares
+          personas físicas o jurídicas interesados en proyectos específicos de
+          la cartera en determinados países *. Seria como agregar un nuevo brote
+          al árbol de la economía local que pueda fructificar a partir de
+          escalar los proyectos en la región.-
+        </p>
+        <p>
+          * (Ej. si alguno de los proyectos son de interés en México y los
+          Emiratos Arabes Unidos desean invertir, en los estudios de
+          pre-factibilidad, serán becados estudiantes de México y de los
+          Emiratos, que se integran en equipos de estudio en todas las areas
+          relacionadas a la symbiosis del proyecto. En caso de que el estudio
+          sea favorable, los mismos estudiantes que fueron becados, serán los
+          encargados del desarrollo y monitores de cada etapa del proyecto, para
+          adaptarlo y establecer los cambios necesarios a las variables del
+          mercado.)
+        </p>
+      </>
+    ),
+  },
+};
+
 export const Feature50DataSource = {
   wrapper: { className: 'home-page-wrapper content7-wrapper' },
   page: { className: 'home-page content7' },
@@ -149,9 +182,8 @@ export const Feature50DataSource = {
                   解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
                 </p>
                 <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                <h3>开放</h3>
+                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
               </span>
             ),
           },
@@ -189,9 +221,8 @@ export const Feature50DataSource = {
                   解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
                 </p>
                 <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                <h3>开放</h3>
+                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
               </span>
             ),
           },
@@ -229,9 +260,8 @@ export const Feature50DataSource = {
                   解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
                 </p>
                 <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                <h3>开放</h3>
+                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
               </span>
             ),
           },
@@ -481,36 +511,7 @@ export const Feature00DataSource = {
     ],
   },
 };
-export const Feature20DataSource = {
-  wrapper: { className: 'home-page-wrapper content2-wrapper' },
-  OverPack: { className: 'home-page content2', playScale: 0.3 },
-  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
-  img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
-  },
-  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
-  title: { className: 'content2-title', children: '分布式中间件' },
-  content: {
-    className: 'content2-content',
-    children:
-      '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
-  },
-};
-export const Feature10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
-  },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: { className: 'content1-title', children: '企业资源管理' },
-  content: {
-    className: 'content1-content',
-    children:
-      '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
-  },
-};
+
 export const Feature70DataSource = {
   wrapper: { className: 'home-page-wrapper feature7-wrapper' },
   page: { className: 'home-page feature7' },
@@ -521,12 +522,13 @@ export const Feature70DataSource = {
       {
         name: 'title',
         className: 'feature7-title-h1',
-        children: '图像在线服务',
+        children: 'Proyectos',
       },
       {
         name: 'content',
         className: 'feature7-title-content',
-        children: '你可以直接快速接入图像能力',
+        children:
+          'Algunas de las iniciativas en las que ya estamos involucrados.',
       },
     ],
   },
@@ -1083,7 +1085,7 @@ export const Teams20DataSource = {
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
-    children: [{ name: 'title', children: '团队成员' }],
+    children: [{ name: 'title', children: 'Equipo' }],
   },
   block: {
     className: 'block-wrapper',
@@ -1098,21 +1100,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/orrodrigo3-312x307.png',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'Rodrigo' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: 'Asesor Ejecutivo',
             },
           ],
         },
@@ -1126,21 +1123,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/noe2-392x449.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: 'Noé' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: 'Ing. Finanzas y Desarrollo',
             },
           ],
         },
@@ -1154,21 +1146,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/ornella4-217x218.png',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'Ornella' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: 'Lic. Ciencias de la Comunicación',
             },
           ],
         },
@@ -1182,21 +1169,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/seba-2-400x400.png',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'Sebastián' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: 'Programador Web',
             },
           ],
         },
@@ -1210,21 +1192,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/shopie-400x400.jpg',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: 'Sophie' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: 'Agro Social',
             },
           ],
         },
@@ -1238,21 +1215,16 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'http://amanecerenelcampo.net/Big-Push-uruguay/assets/images/lili-400x441.png',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: 'Lila' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: 'Dir. Ejecutiva',
             },
           ],
         },
@@ -1334,10 +1306,8 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <a href="http://abc.alipay.com">隐私权政策</a>&nbsp; &nbsp; &nbsp;
-        |&nbsp; &nbsp; &nbsp; <a href="http://abc.alipay.com">权益保障承诺书</a>&nbsp;
-        &nbsp; &nbsp;&nbsp;ICP证:浙B2-20100257&nbsp; &nbsp;
-        &nbsp;&nbsp;Copyright © 2019 蚂蚁金融服务集团<br />
+        Copyright © 2021 Amanecer en el campo
+        <br />
       </span>
     ),
   },
