@@ -1,0 +1,71 @@
+Amanecer
+Header: Es suficiente la transparencia institucional y el concurso social acompañando la dinámica de inversiones sustentables para consignar un verdadero despliegue virtuoso del desarrollo sostenible en el Mundo.
+
+Home 
+
+Formularios Amanecer:
+
+Registro de datos:
+Nombre
+Rubro Propio
+Mail
+Telefono
+Pais
+
+Gastos administrativos 5usd (crear cuenta paypal).
+
+4 opciones
+- economico/financiero (inversiones)
+- institucional
+- social
+- ambiental
+
+- quiere incluir otro proyecto
+
+Economico (inversores)
+
+Introduccion y objetivo de las inversions. 
+http://amanecerenelcampo.net/Big-Push-uruguay/inversores.html
+
+Mas informacion:
+- proceso de gestion de los proyectos de la plataforma de proyectos sustentables : 
+Juridica, social, ambiental y economica
+
+(1) Si está interesado en invertir en estudios de prefactibilidad 
+(2) Invertir en proyecto
+
+Seleccionar categoria/rubro del proyecto, 1 o mas. (filtros)
+
+
+
+(1)
+a. Seleccionar proyecto a realiza estudio*, se pueden elegir 1 o todos.
+*en otra pagina se muestran un listado mas detallado de los proyectos, con su propio detalle.
+a1. (combo simple)
+a2. Desplegar proyectos con acordion.
+
+(2)
+Idem 1
+
+(3)
+Alta proyecto.
+
+
+Estudios de pre-Factibilidad juridica social ambiental economica.
+
+Becas en estudios de prefactibilidad en tu pais o region.
+
+Rentabilidad social.
+
+Impacto ambiental.
+
+Factibilidad juridica.
+
+Proceso de gestion.
+
+
+
+
+Invesores
+
+Ver proyectos, seleccionar/agregar.

@@ -29,7 +29,7 @@ const Hero = ({ dataSource }) => {
             <h1 className="hero-title">{dataSource.title}</h1>
             <div className="hero-explain">{dataSource.explain}</div>
             <div className="hero-content">{dataSource.content}</div>
-            <div className="hero-button-wrapper">
+            {/* <div className="hero-button-wrapper">
               <Button
                 type="primary"
                 className="hero-button"
@@ -37,7 +37,7 @@ const Hero = ({ dataSource }) => {
               >
                 {dataSource.button.text}
               </Button>
-            </div>
+            </div> */}
           </TweenOne>
         </QueueAnim>
       </div>

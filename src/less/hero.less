@@ -15,16 +15,15 @@
 
   &-title {
     font-size: 48px;
-    line-height: 1.5;
     color: #ffffff;
-    margin-bottom: 8px;
     font-weight: bold;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.507);
 
     &-wrapper {
       width: 50rem;
       position: relative;
-      top: 20%;
+      top: 15rem;
+      padding-left: 3%;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     }
@@ -33,8 +32,6 @@
   &-explain {
     color: rgb(255, 255, 255);
     font-size: 24px;
-    margin-bottom: 24px;
-
     font-weight: bold;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.507);
   }
@@ -43,15 +40,13 @@
     font-size: 18px;
     color: rgb(255, 255, 255);
     margin-bottom: 48px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3%;
   }
 
   &-button-wrapper {
     .@{hero}-button {
-      background-image: linear-gradient(
-        to right bottom,
-        #82b5ff 0%,
-        #3c89f6 0%
-      );
+      background-image: linear-gradient(#3c89f6, #82b5ff);
       box-shadow: 0 8px 24px fade(#5f9bf1, 35);
       border-radius: 20px;
       border: none;
@@ -61,12 +56,8 @@
       transition: transform 0.3s, box-shadow 0.3s;
       &:hover {
         transform: translateY(-5px);
+        background-image: linear-gradient(#3c89f6, #82b5ff);
         box-shadow: 0 13px 24px fade(#5f9bf1, 45);
-        background-image: linear-gradient(
-          to right bottom,
-          #82b5ff 0%,
-          #3c89f6 0%
-        );
       }
     }
   }

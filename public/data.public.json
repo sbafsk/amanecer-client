@@ -1,0 +1,48 @@
+{
+  "Nav30DataSource": {
+    "logo": "./logo.png",
+    "Menu": {
+      "children": [
+        {
+          "name": "item1",
+          "href": "objetivos",
+          "text": "Objetivos"
+        },
+        {
+          "name": "item2",
+          "href": "valores",
+          "text": "Valores"
+        },
+
+        {
+          "name": "item3",
+          "href": "alianzas",
+          "text": "Alianzas"
+        },
+
+        {
+          "name": "item4",
+          "href": "equipo",
+          "text": "Equipo"
+        },
+
+        {
+          "name": "item5",
+          "href": "contacto",
+          "text": "Contacto"
+        }
+      ]
+    }
+  },
+  "heroDataSource": {
+    "title": "Plataforma digital de Inversiones Sustentables",
+    "explain": "Objetivos:",
+
+    "content": "Desarrollar actividades fomentando la innovación y mejoras productivasque conduzcan a un nivel de desarrollo humano sostenible desde las capacidades locales.Generar las economías de escala necesarias para incrementar lasustentabilidad de sectores fuertemente interconnections con la economía. Lograr un impulso colectivo de Proyectos Tecnológicos, Productivos y sociales escalable a otras regiones",
+    "button": {
+      "href": "objetivos",
+      "type": "",
+      "text": "CONOCER MAS"
+    }
+  }
+}

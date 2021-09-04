@@ -32,12 +32,19 @@ import {
 
 export default function App() {
   const [isMobile, setisMobile] = useState(false);
+  const [data, setData] = useState(null);
 
   useEffect(() => {
+    alert('SITIO EN CONTRUCCION !');
     enquireScreen((b) => {
       setisMobile(b);
     });
+    fetch('data.public.json')
+      .then((response) => response.json())
+      .then((res) => setData(res));
   }, []);
+
+  console.log(data);
 
   const children = [
     <Nav
@@ -49,13 +56,7 @@ export default function App() {
     <Hero
       key="hero"
       name="hero"
-      dataSource={heroDataSource}
-      isMobile={isMobile}
-    />,
-    <Feature2
-      id="Feature2_0"
-      key="Feature2_0"
-      dataSource={Feature20DataSource}
+      dataSource={data ? data.heroDataSource : null}
       isMobile={isMobile}
     />,
     <Feature1
@@ -64,10 +65,16 @@ export default function App() {
       dataSource={Feature10DataSource}
       isMobile={isMobile}
     />,
-    <Feature7
-      id="Feature7_0"
-      key="Feature7_0"
-      dataSource={Feature70DataSource}
+    <Feature2
+      id="Feature2_0"
+      key="Feature2_0"
+      dataSource={Feature20DataSource}
+      isMobile={isMobile}
+    />,
+    <Products
+      id="Feature0_0"
+      key="Feature0_0"
+      dataSource={Feature00DataSource}
       isMobile={isMobile}
     />,
     <Teams2
@@ -76,6 +83,12 @@ export default function App() {
       dataSource={Teams20DataSource}
       isMobile={isMobile}
     />,
+    // <Feature7
+    //   id="Feature7_0"
+    //   key="Feature7_0"
+    //   dataSource={Feature70DataSource}
+    //   isMobile={isMobile}
+    // />,
     // <Feature8
     //   id="Feature8_0"
     //   key="Feature8_0"
@@ -94,12 +107,6 @@ export default function App() {
     //   dataSource={Feature30DataSource}
     //   isMobile={isMobile}
     // />,
-    // <Products
-    //   id="Feature0_0"
-    //   key="Feature0_0"
-    //   dataSource={Feature00DataSource}
-    //   isMobile={isMobile}
-    // />,
 
     <Footer1
       id="Footer1_0"
@@ -108,5 +115,5 @@ export default function App() {
       isMobile={isMobile}
     />,
   ];
-  return <div className="templates-wrapper">{children}</div>;
+  return <div className="templates-wrapper">{data && children}</div>;
 }
